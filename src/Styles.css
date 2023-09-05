@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+* body {
+  background-image: linear-gradient(to top right, #0b4951, #000000);
+  font-family: Arial, sans-serif;
+  padding-top: 80px;
+}
+
+/* For Chrome, Safari, Opera, Opera GX, Microsoft Edge, Chromium, Samsung Internet, and UC Browser */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0b4951;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #0b4951 #000000;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  pointer-events: none;
+}
+
+.logo-img img {
+  width: 40%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.image-wrapper img {
+  width: 40%;
+  height: auto;
+}
+
+.image-wrapper-door {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.image-wrapper-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.image-wrapper-key img {
+  width: 30%;
+  height: auto;
+}
+
+.navbar.navbar-expand-lg {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.headings::before {
+  content: "";
+  display: block;
+  height: 150px; 
+  margin: -80px 0 0; /* This creates space above your element equivalent to the height of the navbar */
+}
+
+.SCP {
+  color: rgb(163, 216, 207);
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  align-items: center;
+  pointer-events: none;
+}
+
+.headings {
+  color: rgb(163, 216, 207);
+  display: flex;
+  pointer-events: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-headings {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  padding: 0 5%;
+}
+
+.sub-headings {
+  color: rgb(163, 216, 207);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.info {
+  color: #a1b4b8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.scp-para {
+  color: #a1b4b8;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0 2%;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar {
+  background-color: #072e33;
+}
+
+.navbar-toggler:hover {
+  background: #0b4951;
+  color: rgb(163, 216, 207);
+  transition: 0.8s;
+}
+
+.navbar-nav a {
+  color: rgb(163, 216, 207);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navtxt {
+  color: rgb(163, 216, 207);
+}
+
+.navtxt {
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition-duration: 0.8s;
+}
+
+.navtxt:hover {
+  background: #0b4951;
+}
+
+.scp-card {
+  background-image: linear-gradient(to top right, #0b4951, #000000);
+  border-radius: 5px;
+  padding:  10px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  color: rgb(163, 216, 207);
+  font-size: 40px;
+  opacity: 0.7;
+  z-index: 1000; /* To ensure it appears above other content */
+}
+
+.scroll-to-top:hover {
+  opacity: 1; 
+}
