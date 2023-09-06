@@ -6,8 +6,7 @@ Live Demo
 
 [Click here](https://aspectss.github.io/scp-app/) to view the live demo of the app deployed on GitHub Pages.
 
-Features
-
+Features:
 Responsive design for desktop and mobile viewing.
 Dynamic loading of SCP entities from a JSON file.
 Interactive navigation bar for easy access to different SCP entities.
