@@ -2,7 +2,7 @@ SCP React App
 A React application that showcases various SCP (Secure, Contain, Protect) entities. Each SCP entity is detailed with an image, object class, description, and other relevant details.
 
 Live Demo
-Click here to view the live demo of the app deployed on GitHub Pages.
+[Click here](https://aspectss.github.io/scp-app/) to view the live demo of the app deployed on GitHub Pages.
 
 Features
 Responsive design for desktop and mobile viewing.
